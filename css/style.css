@@ -1,0 +1,83 @@
+.main {
+    padding-top: 8em;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.jmuPurple {
+    background-color: #450084 !important;
+    color: white !important;
+}
+
+.jmuPurpleText {
+    color: #450084 !important;
+}
+
+body {
+    background-color: #DADADA;
+}
+
+body>.grid {
+    height: 100%;
+}
+
+.image {
+    margin-top: -100px;
+}
+
+.column {
+    max-width: 600px;
+}
+
+.vuecal--purple-theme .vuecal__menu,
+.vuecal__cell-events-count {
+    background-color: #B599CE;
+    color: #fff;
+}
+
+.vuecal--purple-theme .vuecal__cell.selected:before {
+    border-color: #B599CE;
+}
+
+.vuecal__event.lab {
+    background-color: #DACCE6;
+    border: 1px solid rgb(93, 42, 138);
+    color: #fff;
+}
+.vuecal__event.cover {
+    background-color: rgb(159, 231, 191);
+    border: 1px solid rgb(10, 138, 27);
+    color: #fff;
+}
+.vuecal__event.unassigned-cover {
+    background-color: rgb(231, 159, 159);
+    border: 1px solid rgb(228, 15, 15);
+    color: #fff;
+}
+.vuecal__event.assignment {
+    background-color: rgb(159, 217, 231);
+    border: 1px solid rgb(15, 19, 228);
+    color: #fff;
+}
+
+.vuecal__event-content {
+  font-style: italic;
+}
+
+.modal {
+    padding: 5vh;
+}
+
+#student-queue {
+    padding: 5vh;
+}
+
+.alignMiddle {
+    display: flex;
+    align-items: center;
+}
+.like {
+    padding: 0;
+    border: none;
+    background: none;
+}

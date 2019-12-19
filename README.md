@@ -1,1 +1,13 @@
 # Student-TA-Queue
+
+I completed this project with two other classmates at JMU for CS 347 (Web Based Information Systems). I worked on the back end, setting up and managing the entire PostgreSQL database. I also made a few of the PHP files, such as student.php, ta_preferences.php, and the files in php_templates. We worked together on the design of the web page using Semantic UI and Vue.js.
+
+# Overview
+We will make a system for the TA program at JMU that provides useful information to students, allows TAs to set their scheduling preferences and needs, and allows managers to create schedules for the TAs based on their availability. This system will make scheduling and tracking TA hours easier, providing the students, TAs, and managers with a much improved experience.
+# Features
+TAs and managers will be able to log into the system with different types of accounts. 
+TA accounts will be able to set scheduling preferences and course knowledge with a simple form that can be edited at any time. A TA will also be able to request for a cover in case something comes up, using a queue of potential coverers.
+Manager accounts will be able to set TA lab dates and hours, view TAs’ preferences that they entered into their account information, and manually create schedules based on those preferences. Managers will also get notified when a TA requests for a cover and will be able to approve the cover to make it official.
+	A calendar showing the lab dates and hours will be made public so that students will be able to see when they can utilize the TAs. Each lab time will show the prior course experience of the TAs. The calendar will have a view private to TAs, showing which TAs are assigned for each time and day, while students will only be able to see TA course experience for each section of lab hours. Managers will see the entire TA schedule and will be able to make changes.
+	On the backend, a postgresql database will be implemented that contains user information (TAs and Managers), schedule information, and TA hour usage data. TAs will have login info and preferences like course knowledge, minimum and maximum hours per week, and time constraints. Managers will only have login info. The TA hour usage data will contain statistics automatically generated from students like the dates they entered their names into the system and the amount of time they spent at TA hours that day.
+	Some additional features that will be implemented include sending emails reminding coverers of the new hours they are taking on, a discussion board for students to post questions to be answered by anyone, including other students, and a calendar option to show assignment due dates entered by professors.

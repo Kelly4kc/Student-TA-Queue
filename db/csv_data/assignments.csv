@@ -1,0 +1,6 @@
+﻿professor_id,course_id,due_date,assignment_name,assignment_link,semester_id
+15,8,9/13/2019,P0: Intro,https://w3.cs.jmu.edu/lam2mo/cs261_2019_08/p0-intro.html,1
+15,8,9/27/2019,P1: Mini-ELF checker,https://w3.cs.jmu.edu/lam2mo/cs261_2019_08/p1-check.html,1
+15,8,10/11/2019,P2: Mini-ELF loader,https://w3.cs.jmu.edu/lam2mo/cs261_2019_08/p2-load.html,1
+15,8,11/1/2019,P3: Mini-ELF disassembler,https://w3.cs.jmu.edu/lam2mo/cs261_2019_08/p3-disas.html,1
+15,8,11/22/2019,P4: Mini-ELF interpreter,https://w3.cs.jmu.edu/lam2mo/cs261_2019_08/p4-interp.html,1

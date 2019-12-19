@@ -1,0 +1,11 @@
+\copy semester(term, start_date, end_date) from 'csv_data/semester.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy course(subject, number) from 'csv_data/cs_courses.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy person(eid, password, first_name, last_name, role, semester_id) from 'csv_data/people.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy assignment(professor_id, course_id, due_date, assignment_name, assignment_link, semester_id) from 'csv_data/assignments.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy question(author, question, course_id, assignment_id, time_asked, time_resolved, resolver_id, resolution) from 'csv_data/questions.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy schedule(ta_id, day, start_time, end_time, semester_id) from 'csv_data/schedule.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy ta_availability(ta_id, day, start_time, end_time, semester_id) from 'csv_data/ta_availability.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy cover(unavailable_ta_id, cover_ta_id, date, start_time, end_time) from 'csv_data/covers.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy ta_course_experience(ta_id, course_id) from 'csv_data/ta_course_experience.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy semester_schedule(day, start_time, end_time, semester_id) from 'csv_data/semester_schedule.csv' delimiter ',' NULL AS '' CSV HEADER;
+\copy parent_child_question(parent_question_id, child_question_id) from 'csv_data/parent_child_questions.csv' delimiter ',' NULL AS '' CSV HEADER;

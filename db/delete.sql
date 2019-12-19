@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS ta_availability;
+DROP TABLE IF EXISTS schedule;
+DROP TABLE IF EXISTS potential_cover;
+DROP TABLE IF EXISTS parent_child_question;
+DROP TABLE IF EXISTS question;
+DROP TABLE IF EXISTS queue;
+DROP TABLE IF EXISTS ta_course_experience;
+DROP TABLE IF EXISTS assignment;
+DROP TABLE IF EXISTS course;
+DROP TABLE IF EXISTS cover;
+DROP TABLE IF EXISTS person;
+DROP TABLE IF EXISTS semester_schedule;
+DROP TABLE IF EXISTS semester;
+DROP TYPE IF EXISTS role;
+DROP TYPE IF EXISTS day;
+DROP TYPE IF EXISTS term;

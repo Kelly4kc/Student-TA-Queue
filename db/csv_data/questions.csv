@@ -1,0 +1,8 @@
+﻿author,question,course_id,assignment_id,time_asked,time_resolved,resolver_id,resolution
+Kevin Kelly,*Question about P0*,8,1,9/10/2019 10:00,9/10/2019 10:30,2,*Answer to Question About P0*
+Hunter Main,*Question about P1*,8,2,9/25/2019 16:15,9/25/2019 16:45,3,*Answer to Question About P1*
+Maggie Duke,*Question about P2*,8,3,10/7/2019 19:37,10/7/2019 20:43,4,*Answer to Question About P2*
+Batman,*Question about P3*,8,4,10/26/2019 22:45,,,
+Anonymous,*Question about P4*,8,,11/20/2019 14:30,,,
+Help,*General Question*,1,,11/21/2019 18:37,,,
+Maggie Duke,*Follow up to Question About P2*,8,3,10/9/2019 19:37,10/9/2019 20:43,5,*Answer to Follow Up About P2*
